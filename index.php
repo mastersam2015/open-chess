@@ -208,14 +208,14 @@ miny=0;
 //alert(miny);
 }
 if((maxx==0)||(maxx<jegox)){
-maxx=9;
+maxx=10;
 }
 if((maxy==0)||(maxy<jegoy)){
-maxy=9;
+maxy=10;
 }
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(maxxt[i]!=undefined){
 if ((maxx > maxxt[i])&&(jegox<maxxt[i])) {
 maxx = maxxt[i];
@@ -224,7 +224,7 @@ maxx = maxxt[i];
 }
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(maxyt[i]!=undefined){
 if ((maxy > maxyt[i])&&(jegoy<maxyt[i])) {
 maxy = maxyt[i];
@@ -233,7 +233,7 @@ maxy = maxyt[i];
 }
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minxt[i]!=undefined){
 if ((minx < minxt[i])&&(jegox>minxt[i])) {
 minx = minxt[i];
@@ -243,7 +243,7 @@ minx = minxt[i];
 
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minyt[i]!=undefined){
 if ((miny < minyt[i])&&(jegoy>minyt[i])) {
 miny = minyt[i];
@@ -261,10 +261,10 @@ console.log(maxyt);
 //alert("maxy: "+minx);
 //alert("2"+miny);
 //alert("maxx"+maxx+" minx"+minx+" maxy"+maxy+" miny"+miny);
-for(i=1;i<=8;i++){
+for(i=1;i<=9;i++){
 
 
-for(j=1;j<=8;j++){
+for(j=1;j<=9;j++){
 
 if(((jegox==j)||(jegoy==i))&&(!((jegox==j)&&(jegoy==i)))){
 //alert(j+" j>minx "+minx+" "+j+" j<maxx "+maxx+" "+i+" i>miny "+miny+" "+i+" i<maxy "+maxy);
@@ -435,16 +435,16 @@ if((miny==9)){
 miny=0;
 }
 if((maxx==0)){
-maxx=9;
+maxx=10;
 }
 if((maxy==0)){
-maxy=9;
+maxy=10;
 }
 
 
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(maxxt[i]!=undefined){
 if ((maxx > maxxt[i])&&(jegox<maxxt[i])) {
 maxx = maxxt[i];
@@ -453,7 +453,7 @@ maxx = maxxt[i];
 }
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(maxyt[i]!=undefined){
 if ((maxy > maxyt[i])&&(jegoy<maxyt[i])) {
 maxy = maxyt[i];
@@ -463,7 +463,7 @@ maxy = maxyt[i];
 
 //prawa gora
 minx=9;
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minxt[i]!=undefined){
 if ((minx > minxt[i])&&(jegox<minxt[i])) {
 minx = minxt[i];
@@ -473,7 +473,7 @@ minx = minxt[i];
 
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minyt[i]!=undefined){
 if ((miny < minyt[i])&&(jegoy>minyt[i])) {
 miny = minyt[i];
@@ -482,8 +482,8 @@ miny = minyt[i];
 }
 
 //alert("maxx"+maxx+" minx"+minx+" maxy"+maxy+" miny"+miny);
-for(i=1;i<=8;i++){
-for(j=1;j<=8;j++){
+for(i=1;i<=9;i++){
+for(j=1;j<=9;j++){
 for(wu=1;wu<=8;wu++){
 if((!((jegox==j)&&(jegoy==i)))&&((jegox-wu==j)||(jegox+wu==j))&&((jegoy-wu==i)||(jegoy+wu==i))){
 
@@ -620,7 +620,7 @@ if(maxy==i && pionek[k].charAt(0)==i){
 }
 //prawa gora
 /*
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minxt[i]!=undefined){
 if ((minx > minxt[i])&&(jegox<minxt[i])) {
 minx = minxt[i];
@@ -755,14 +755,14 @@ miny=0;
 //alert(miny);
 }
 if((maxx==0)||(maxx<jegox)){
-maxx=9;
+maxx=10;
 }
 if((maxy==0)||(maxy<jegoy)){
-maxy=9;
+maxy=10;
 }
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(maxxt[i]!=undefined){
 if ((maxx > maxxt[i])&&(jegox<maxxt[i])) {
 maxx = maxxt[i];
@@ -771,7 +771,7 @@ maxx = maxxt[i];
 }
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(maxyt[i]!=undefined){
 if ((maxy > maxyt[i])&&(jegoy<maxyt[i])) {
 maxy = maxyt[i];
@@ -780,7 +780,7 @@ maxy = maxyt[i];
 }
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minxt[i]!=undefined){
 if ((minx < minxt[i])&&(jegox>minxt[i])) {
 minx = minxt[i];
@@ -790,7 +790,7 @@ minx = minxt[i];
 
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minyt[i]!=undefined){
 if ((miny < minyt[i])&&(jegoy>minyt[i])) {
 miny = minyt[i];
@@ -808,10 +808,10 @@ console.log(maxyt);
 //alert("maxy: "+minx);
 //alert("2"+miny);
 //alert("maxx"+maxx+" minx"+minx+" maxy"+maxy+" miny"+miny);
-for(i=1;i<=8;i++){
+for(i=1;i<=9;i++){
 
 
-for(j=1;j<=8;j++){
+for(j=1;j<=9;j++){
 
 if(((jegox==j)||(jegoy==i))&&(!((jegox==j)&&(jegoy==i)))){
 //alert(j+" j>minx "+minx+" "+j+" j<maxx "+maxx+" "+i+" i>miny "+miny+" "+i+" i<maxy "+maxy);
@@ -974,17 +974,17 @@ if((miny==9)){
 miny=0;
 }
 if((maxx==0)){
-maxx=9;
+maxx=10;
 }
 if((maxy==0)){
-maxy=9;
+maxy=10;
 }
 
 
 
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(maxxt[i]!=undefined){
 if ((maxx > maxxt[i])&&(jegox<maxxt[i])) {
 maxx = maxxt[i];
@@ -993,7 +993,7 @@ maxx = maxxt[i];
 }
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(maxyt[i]!=undefined){
 if ((maxy > maxyt[i])&&(jegoy<maxyt[i])) {
 maxy = maxyt[i];
@@ -1003,7 +1003,7 @@ maxy = maxyt[i];
 
 //prawa gora
 minx=9;
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minxt[i]!=undefined){
 if ((minx > minxt[i])&&(jegox<minxt[i])) {
 minx = minxt[i];
@@ -1013,7 +1013,7 @@ minx = minxt[i];
 
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minyt[i]!=undefined){
 if ((miny < minyt[i])&&(jegoy>minyt[i])) {
 miny = minyt[i];
@@ -1022,8 +1022,8 @@ miny = minyt[i];
 }
 
 //alert("maxx"+maxx+" minx"+minx+" maxy"+maxy+" miny"+miny);
-for(i=1;i<=8;i++){
-for(j=1;j<=8;j++){
+for(i=1;i<=9;i++){
+for(j=1;j<=9;j++){
 for(wu=1;wu<=8;wu++){
 if((!((jegox==j)&&(jegoy==i)))&&((jegox-wu==j)||(jegox+wu==j))&&((jegoy-wu==i)||(jegoy+wu==i))){
 
@@ -1160,7 +1160,7 @@ if(maxy==i && pionek[k].charAt(0)==i){
 }
 //prawa gora
 /*
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minxt[i]!=undefined){
 if ((minx > minxt[i])&&(jegox<minxt[i])) {
 minx = minxt[i];
@@ -1291,14 +1291,14 @@ miny=0;
 //alert(miny);
 }
 if((maxx==0)||(maxx<jegox)){
-maxx=9;
+maxx=10;
 }
 if((maxy==0)||(maxy<jegoy)){
-maxy=9;
+maxy=10;
 }
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(maxxt[i]!=undefined){
 if ((maxx > maxxt[i])&&(jegox<maxxt[i])) {
 maxx = maxxt[i];
@@ -1307,7 +1307,7 @@ maxx = maxxt[i];
 }
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(maxyt[i]!=undefined){
 if ((maxy > maxyt[i])&&(jegoy<maxyt[i])) {
 maxy = maxyt[i];
@@ -1316,7 +1316,7 @@ maxy = maxyt[i];
 }
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minxt[i]!=undefined){
 if ((minx < minxt[i])&&(jegox>minxt[i])) {
 minx = minxt[i];
@@ -1326,7 +1326,7 @@ minx = minxt[i];
 
 
 
-for (i = 1; i <= 8; i++) {
+for (i = 0; i <= 10; i++) {
 	if(minyt[i]!=undefined){
 if ((miny < minyt[i])&&(jegoy>minyt[i])) {
 miny = minyt[i];
@@ -1335,10 +1335,10 @@ miny = minyt[i];
 }
 
 //alert("maxx"+maxx+" minx"+minx+" maxy"+maxy+" miny"+miny);
-for(i=1;i<=8;i++){
+for(i=1;i<=9;i++){
 
 
-for(j=1;j<=8;j++){
+for(j=1;j<=9;j++){
 
 if(((jegox==j)&&(jegoy+1==i))||(((jegox==j)&&(jegoy+2==i))&&(y==2))){
 
@@ -1515,17 +1515,17 @@ if((miny==9)||((miny>jegoy))){
 miny=0;
 }
 if((maxx==0)||(maxx<jegox)){
-maxx=9;
+maxx=10;
 }
 if((maxy==0)||(maxy<jegoy)){
-maxy=9;
+maxy=10;
 }
 
 //alert("maxx"+maxx+" minx"+minx+" maxy"+maxy+" miny"+miny);
-for(i=1;i<=8;i++){
+for(i=1;i<=9;i++){
 
 
-for(j=1;j<=8;j++){
+for(j=1;j<=9;j++){
 
 if(((jegox+1==j)&&(jegoy+2==i))||((jegox-1==j)&&(jegoy+2==i))||((jegox+1==j)&&(jegoy-2==i))||((jegox-1==j)&&(jegoy-2==i))||((jegox+2==j)&&(jegoy+1==i))||((jegox+2==j)&&(jegoy-1==i))||((jegox-2==j)&&(jegoy+1==i))||((jegox-2==j)&&(jegoy-1==i))){
 
@@ -1742,10 +1742,10 @@ if(((miny>jegoy))){
 miny=0;
 }
 if((maxx<jegox)){
-maxx=9;
+maxx=10;
 }
 if((maxy<jegoy)){
-maxy=9;
+maxy=10;
 }
 /*
 alert(minx);
@@ -1755,10 +1755,10 @@ alert(maxy);
 */
 
 //alert("maxx"+maxx+" minx"+minx+" maxy"+maxy+" miny"+miny);
-for(i=1;i<=8;i++){
+for(i=1;i<=9;i++){
 
 
-for(j=1;j<=8;j++){
+for(j=1;j<=9;j++){
 
 if((jegox+1==j)&&(jegoy==i)||(jegox-1==j)&&(jegoy==i)||(jegox==j)&&(jegoy+1==i)||(jegox==j)&&(jegoy-1==i)){
 
@@ -1906,14 +1906,14 @@ if((miny==9)){
 miny=0;
 }
 if((maxx==0)){
-maxx=9;
+maxx=10;
 }
 if((maxy==0)){
-maxy=9;
+maxy=10;
 }
 //alert("maxx"+maxx+" minx"+minx+" maxy"+maxy+" miny"+miny);
-for(i=1;i<=8;i++){
-for(j=1;j<=8;j++){
+for(i=1;i<=9;i++){
+for(j=1;j<=9;j++){
 for(wu=1;wu<=1;wu++){
 if((!((jegox==j)&&(jegoy==i)))&&((jegox-wu==j)||(jegox+wu==j))&&((jegoy-wu==i)||(jegoy+wu==i))){
 
@@ -2159,8 +2159,8 @@ $.get( "ready.php", function( data ) {
 				//$("#ready").val("ready");
 				
 				
-				//window.location.href="index.php?kolor=n&x="+gox+"&y="+goy+"&ostring="+ostring;	
-				window.location.href="index.php?reset=3";
+				//window.location="index.php?kolor=n&x="+gox+"&y="+goy+"&ostring="+ostring;	
+				window.location="index.php?reset=3";
 				}else if(data==3){
 					$("#ready").val("ready");
 					//$("#re").show();
